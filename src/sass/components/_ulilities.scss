@@ -1,0 +1,103 @@
+.container {
+    margin-top: 12px;
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .content {
+            width: 320px;
+            padding: 12px;
+            border: 1px solid #FFFFFF25;
+            margin: 6px;
+            border-radius: 12px;
+            .item {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                p {
+                    margin: 6px;
+                }
+                .i {
+                    font-size: 9px;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    padding-top: 3px;
+                    padding-bottom: 3px;
+                    border: 1px solid #FFFFFF20;
+                    margin-left: 6px;
+                    margin-right: 6px;
+                    border-radius: 100px;
+                }
+                .name {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #FFFFFF15;
+    ul {
+        display: flex;
+        overflow-y: auto;
+        white-space: nowrap;
+        li {
+            display: flex;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border: 1px solid #FFFFFF15;
+            border-radius: 100px;
+            margin-left: 6px;
+            margin-right: 6px;
+            a {
+                font-size: 12px;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+}
+
+.loading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px; 
+    padding: 0;
+    margin: 6px;
+    color: #FFFFFF;
+}
+
+.menu {
+    position: fixed;
+    top: 32px;
+    right: 2px;
+    background-color: transparent;
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        border-radius: 100px;
+        border: 1px solid #FFFFFF15;
+        .icon {
+            img {
+                width: 16px;
+                margin-right: 6px;
+            }
+        }
+        .name {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
