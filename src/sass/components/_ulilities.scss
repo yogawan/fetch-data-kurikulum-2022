@@ -1,5 +1,6 @@
 .container {
     margin-top: 12px;
+    margin-bottom: 64px;
     .card {
         display: flex;
         flex-wrap: wrap;
@@ -100,4 +101,15 @@ nav {
             }
         }
     }
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: none;
+    border-top: 1px solid #FFFFFF15;
 }

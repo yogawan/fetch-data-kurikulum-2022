@@ -46,6 +46,9 @@ const SevenPages = () => {
                             <p className='name'>{item.name}</p>
                             <p className='i'>Nama_MK</p>
                         </div>
+                        <div>
+                          <hr />
+                        </div>
                         <div className="item">
                             <p className='sks'>{item.sks}</p>
                             <p className='i'>SKS</p>
